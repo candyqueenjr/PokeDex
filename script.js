@@ -1,5 +1,5 @@
 const poke_container = document.getElementById('poke-container')
-const pokemon_count = 150
+const pokemon_count = 905
 const colors = {
     fire: '#FDDFDF',
     grass: '#DEFDE0',
@@ -47,7 +47,7 @@ const createPokemonCard = (pokemon) => {
 
     const pokemonInnerHTML = `
     <div class="img-container">
-        <img src="https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png" alt="">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png" alt="">
     </div>
     <div class="info">
         <span class="number">#${id}</span>
